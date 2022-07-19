@@ -1,0 +1,17 @@
+# for ide and editor
+.idea
+.vscode
+
+# for local dev
+/dev
+.python-version
+
+# for test cache
+.coverage
+.pytest_cache
+
+# for runtime cache
+*.pyc
+/logs
+/data
+/pidfiles
