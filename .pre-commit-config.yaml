@@ -5,7 +5,7 @@ repos:
     name: pytest-check
     stages: [commit]
     types: [python]
-    entry: bash -c 'pytest --cov=tests --cov-report=html tests/'
+    entry: bash -c './test.sh'
     language: system
     pass_filenames: false
     always_run: true
